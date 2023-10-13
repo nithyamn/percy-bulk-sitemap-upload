@@ -28,7 +28,7 @@ async function parseSitemap(){
   });
  
   // write to file
-  let newContent = urls.map(url => ({name: url, url: url, execute: `document.querySelector('.action-links .close').click()`}));
+  let newContent = urls.map(url => ({name: url, url: url, execute: ``}));
   //document.querySelector('.action-links .close').click()
   await fs.writeFile(`./tmp_snapshot/${process.env.PERCY_TOKEN}-snapshots.tmp.yml`, yaml.dump(newContent));
 }
