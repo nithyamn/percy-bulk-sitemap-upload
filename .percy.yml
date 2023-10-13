@@ -1,0 +1,10 @@
+version: 2
+static:
+  base-url: /
+  clean-urls: false
+  include: []
+  exclude: []
+  rewrites: {}
+discovery:
+  concurrency: 2
+  network-idle-timeout: 750

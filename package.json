@@ -1,0 +1,20 @@
+{
+  "name": "percy-sitemap-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx percy snapshot snapshot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.27.3"
+  }
+}
