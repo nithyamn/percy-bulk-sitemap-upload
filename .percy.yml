@@ -6,5 +6,5 @@ static:
   exclude: []
   rewrites: {}
 discovery:
-  concurrency: 2
+  concurrency: 1
   network-idle-timeout: 750
